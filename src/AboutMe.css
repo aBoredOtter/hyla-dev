@@ -1,11 +1,23 @@
 
-img {
+#profile {
     max-width: 40%;
     max-height: 40%;
     width: auto;
     height: auto;
     float: left;
     margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+}
+#profile-mobile {
+    max-width: 60%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    margin-left: 18%;
     margin-right: 4%;
     margin-top: 4%;
     margin-bottom: 2%;

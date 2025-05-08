@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
     "lucide-react": "^0.507.0",
+    "motion": "^12.10.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-flip-toolkit": "^7.2.4",
     "react-magic-motion": "^1.1.2",
     "react-pro-sidebar": "^1.1.0",
     "react-router": "^7.5.3",

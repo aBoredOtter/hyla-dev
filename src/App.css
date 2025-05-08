@@ -1,3 +1,8 @@
+#desktop-container {
+  display:flex;
+  flex-direction: column;
+}
+
 
 h1 {
   font-size: min(9vw, 120px);
@@ -7,14 +12,27 @@ h1 {
   margin-top: 4%;
 }
 
-#description {
-  font-size: min(3vw, 36px);
-  line-height: 1.4;
-  text-align:left;
+.list-mobile {
+  margin-left: 22vw;
+  font-size: 6vw;
+}
+
+.description {
   margin-left: 4%;
   margin-right: 4%;
 
 }
+.description-desktop {
+  font-size: min(2vw, 36px);
+  line-height: 1.5;
+  text-align:left;
+}
+.description-mobile {
+  font-size: min(6vw, 18px);
+  line-height: 1.4;
+  text-align: center;
+}
+
 
 
 .container {
@@ -47,10 +65,35 @@ h1 {
   float:left;
   gap: 1%;
   overflow: hidden;
+  transition: width 0.5s;
 }
 
-.gradHeading {
+#topbar {
+  background-color: #1A0D0B;
+  padding: 1%;
+  margin: 1% 0;
+  width: 94vw;
+  border-radius: 2vh;
+  display: flex;
+  flex-direction: row;
+  float:top;
+  gap: 1%;
+  overflow: hidden;
+  height: min(6vh, 75px)
+}
+
+.animContainer {
+  display:flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.gradHeading-desktop {
     text-align: left;
+  }
+  .gradHeading-mobile {
+    text-align:center;
+    font-size: 14vw
   }
 
 .gradText {
@@ -89,6 +132,10 @@ h1 {
   font-size: min(2vw, 32px);
 }
 
+.sbTextMobile {
+  font-size: min(4vw, 10px);
+}
+
 .sbButton {
   cursor: pointer; 
   padding: 0; 
@@ -104,6 +151,8 @@ h1 {
 .sbIcon {
   width: min(4vw, 50px);
   height: min(4vw, 50px);
+  stroke-width: 2;
+  stroke-linecap:round
 }
 
 .sbItem:hover .icon {
