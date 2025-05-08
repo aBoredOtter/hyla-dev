@@ -1,0 +1,13 @@
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+}

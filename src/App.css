@@ -1,0 +1,107 @@
+
+h1 {
+  font-size: min(9vw, 120px);
+  font-weight: 500;
+  line-height: 1.0;
+  margin-bottom: 0%;
+  margin-top: 4%;
+}
+
+#description {
+  font-size: min(3vw, 36px);
+  line-height: 1.4;
+  text-align:left;
+  margin-left: 4%;
+  margin-right: 4%;
+
+}
+
+
+.container {
+    background-color: #251310;
+    margin: 1% 0;
+    padding: 1%;
+    border-radius: 3vh;
+    height: 90vh;
+}
+.about-container {
+  width: 48vw;
+  min-width: 650px;
+  max-width: 80vh;
+}
+
+.projects-container {
+  width: 48vw;
+  min-width: 650px;
+  max-width: 80vh;
+}
+
+#sidebar {
+  background-color: #1A0D0B;
+  padding: 1%;
+  margin: 1% 0;
+  height: 90vh;
+  border-radius: 2vh;
+  display: flex;
+  flex-direction: column;
+  float:left;
+  gap: 1%;
+  overflow: hidden;
+}
+
+.gradHeading {
+    text-align: left;
+  }
+
+.gradText {
+    background-image: linear-gradient(to right, #f78de7, #3dff91);
+    background-clip: text;
+    color: transparent;
+  }
+
+.responsiveText:hover{
+  background-image: linear-gradient(to right, #f78de7, #3dff91);
+  background-clip: text;
+  color: transparent;
+}
+.responsiveText:hover::marker {
+  color:white;
+}
+.responsiveText:hover .icon {
+  stroke: url(#gradient);
+}
+
+
+.sbItem {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  width: min(20vw, 250px);
+  font-size: min(2vw, 100px);
+  cursor: pointer;
+}
+
+.sbButton {
+  cursor: pointer; 
+  padding: 0; 
+  border: 0 ;
+  border-radius: 10%;
+  background-color: transparent;
+}
+
+.sbButton:hover .sbIcon {
+  stroke: url(#gradient);
+}
+
+.sbIcon {
+  width: min(4vw, 50px);
+  height: min(4vw, 50px);
+}
+
+.sbItem:hover .icon {
+  stroke: url(#gradient);
+}
+
+#gradient {
+  width:2vw;
+}
