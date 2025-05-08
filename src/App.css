@@ -77,8 +77,16 @@ h1 {
   gap: 0.8rem;
   align-items: center;
   width: min(20vw, 250px);
-  font-size: min(2vw, 100px);
+  font-size: min(2vw, 40px);
   cursor: pointer;
+}
+
+.sbTextMed {
+  font-size: min(2vw, 40px);
+}
+
+.sbTextLarge {
+  font-size: min(2vw, 32px);
 }
 
 .sbButton {
