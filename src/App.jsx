@@ -25,7 +25,7 @@ function App() {
     const isMobile = width <= 768;
 
   return (
-    <>
+    <div id={isMobile ? 'mobile-container' : 'desktop-container'}>
       <Navbar isMobile={isMobile}/>
       <Routes>
           <Route path="*" element={<Navigate to="/about" replace />}/>
@@ -33,7 +33,7 @@ function App() {
           <Route path="/links" element={<Links isMobile={isMobile}/>} />
           <Route path="/projects" element={<Projects isMobile={isMobile}/>} />
       </Routes>
-    </>
+    </div>
   )
 }
 
