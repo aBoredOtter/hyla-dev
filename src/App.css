@@ -29,7 +29,7 @@ h1 {
   text-align:left;
 }
 .description-mobile {
-  font-size: min(6vw, 18px);
+  font-size: 2.25vh;
   line-height: 1.4;
   text-align: center;
 }
