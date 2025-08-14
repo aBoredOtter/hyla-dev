@@ -6,7 +6,7 @@
 
 
 h1 {
-  font-size: min(9vw, 120px);
+  font-size: min(15vh, 120px);
   font-weight: 500;
   line-height: 1.0;
   margin-bottom: 0%;
@@ -24,7 +24,7 @@ h1 {
 
 }
 .description-desktop {
-  font-size: min(2vw, 36px);
+  font-size: min(2.8vh, 36px);
   line-height: 1.5;
   text-align:left;
 }
